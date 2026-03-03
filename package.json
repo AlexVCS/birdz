@@ -1,0 +1,16 @@
+{
+  "name": "birdz",
+  "version": "1.0.0",
+  "description": "Find and save your favorite birds",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev",
+    "dev": "pnpm -r --parallel dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVCS/birdz.git"
+  },
+  "license": "ISC"
+}
